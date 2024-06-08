@@ -1,18 +1,18 @@
 .container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center; /* Center the content horizontally */
   height: 100px;
 }
 
 .social {
   display: flex;
   gap: 10px;
-  flex: 1;
+  position: absolute; /* Position the social icons absolutely */
+  left: 10px; /* Adjust as needed */
 }
 
 .logo {
-  flex: 1;
   text-align: center;
   font-size: 36px;
   font-weight: bold;
@@ -22,7 +22,8 @@
   display: flex;
   align-items: center;
   gap: 20px;
-  flex: 1;
+  position: absolute; /* Position the links absolutely */
+  right: 10px; /* Adjust as needed */
   font-size: 20px;
 }
 
